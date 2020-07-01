@@ -1,2 +1,4 @@
 # EDIBO
-EDIBO elektroniskā'karte
+EDIBO elektroniskā karte
+
+Mans pirmais ieraksts!
