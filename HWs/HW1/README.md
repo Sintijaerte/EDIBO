@@ -14,7 +14,11 @@ Python | Pandas DataFrame. Pandas DataFrame is two-dimensional size-mutable, pot
 
 [how to create a Panda DataFrame?](https://realpython.com/pandas-dataframe/#creating-a-pandas-dataframe) 
 
+[Python Pandas - DataFrame](https://www.tutorialspoint.com/python_pandas/python_pandas_dataframe.htm)
+
 [Python DataFrame](https://media.geeksforgeeks.org/wp-content/uploads/finallpandas.png)
 
 introduce with a solution 
+
+Man joprojām nav ne jausmas, kas tas ir 
 
