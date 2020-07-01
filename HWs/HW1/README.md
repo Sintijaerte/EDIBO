@@ -1,3 +1,3 @@
 Uzdevuma apraksts 
 
-Analysis of Windows event logs using Pandas dataframe
+Analysis of Windows Event logs using Pandas DataFrame
