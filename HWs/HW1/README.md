@@ -31,4 +31,4 @@ Where can I find event logs?
 The type of information stored in Windows event logs
 The Windows operating system records events in five areas: application, security, setup, system and forwarded events. Windows stores event logs in the C:\WINDOWS\system32\config\ folder.
 
-#[introduce with a solution](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-windows-events) 
+[introduce with a solution](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-windows-events) 
