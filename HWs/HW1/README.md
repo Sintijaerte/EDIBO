@@ -12,7 +12,9 @@ Python | Pandas DataFrame. Pandas DataFrame is two-dimensional size-mutable, pot
 
 [Server Log Analysis with Pandas](https://www.youtube.com/watch?v=MbflVr-MBm0) 
 
-[how to create a Panda DataFrame?](https://realpython.com/pandas-dataframe/#creating-a-pandas-dataframe)
+[how to create a Panda DataFrame?](https://realpython.com/pandas-dataframe/#creating-a-pandas-dataframe) 
+
+[Python DataFrame](https://media.geeksforgeeks.org/wp-content/uploads/finallpandas.png)
 
 introduce with a solution 
 
