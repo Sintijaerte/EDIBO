@@ -20,7 +20,8 @@ Python | Pandas DataFrame. Pandas DataFrame is two-dimensional size-mutable, pot
 
 [introduce with a solution](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-windows-events) 
 
-How do I find Windows event log?]
+How do I find Windows event log?
+
 Click Start, point to Programs, point to Administrative Tools, and then click Event Viewer.
 In the console tree, right-click the appropriate log file. ...
 Click a specific event in the details pane to display the Event Properties dialog box and details about the event.
