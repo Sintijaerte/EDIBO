@@ -18,7 +18,7 @@ Python | Pandas DataFrame. Pandas DataFrame is two-dimensional size-mutable, pot
 
 [Python DataFrame](https://media.geeksforgeeks.org/wp-content/uploads/finallpandas.png)
 
-[introduce with a solution](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-windows-events) 
+
 
 How do I find Windows event log?
 
@@ -31,5 +31,4 @@ Where can I find event logs?
 The type of information stored in Windows event logs
 The Windows operating system records events in five areas: application, security, setup, system and forwarded events. Windows stores event logs in the C:\WINDOWS\system32\config\ folder.
 
-Man joprojām nav ne jausmas, kas tas ir 
-
+[introduce with a solution](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-sources-windows-events) 
