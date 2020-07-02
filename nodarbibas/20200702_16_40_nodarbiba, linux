@@ -1,0 +1,10 @@
+user@epk428-10:~/Desktop$ ls -l
+total 20
+drwxr-xr-x 2 user user 4096 Jul  2 15:36 abc
+drwxr-xr-x 2 user user 4096 Jul  2 15:38 Abc
+drwxr-xr-x 2 user user 4096 Jul  2 15:39 AbC
+drwxr-xr-x 2 user user 4096 Jul  2 15:39 ABc
+drwxr-xr-x 2 user user 4096 Jul  2 15:36 ABC
+user@epk428-10:~/Desktop$ 
+user@epk428-10:~/Desktop$ 
+user@epk428-10:~/Desktop$ 
