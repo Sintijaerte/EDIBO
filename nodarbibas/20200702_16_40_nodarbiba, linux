@@ -89,3 +89,69 @@ Type "help", "copyright", "credits" or "license" for more information.
 5
 
 
+
+>>> 2+3
+5
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 67+98
+165
+>>> 
+>>> 2^3
+1
+>>> 2>>3
+0
+>>> 2<<3
+16
+>>> 2<3
+True
+>>> 3>4
+False
+>>> 2**3
+8
+>>> 10**2
+100
+>>> 1**6
+1
+>>> 8**0
+1
+>>> 8/2
+4.0
+>>> 8//3
+2
+>>> 100//2
+50
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> 
+>>> eof
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'eof' is not defined
+>>> ctrl-d
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ctrl' is not defined
+>>> 
+user@epk428-10:~$ a=123
+user@epk428-10:~$ echo a
+a
+user@epk428-10:~$ echo $a
+123
+user@epk428-10:~$ b=sveiki 
+user@epk428-10:~$ echo $b
+sveiki
+user@epk428-10:~$ echo $a+b
+123+b
+user@epk428-10:~$ echo $a $b
+123 sveiki
+user@epk428-10:~$ echo $a, $b
+123, sveiki
+user@epk428-10:~$ 
+user@epk428-10:~$ 
+user@epk428-10:~$ 
+
+
+
