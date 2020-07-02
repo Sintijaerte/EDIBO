@@ -8,3 +8,18 @@ drwxr-xr-x 2 user user 4096 Jul  2 15:36 ABC
 user@epk428-10:~/Desktop$ 
 user@epk428-10:~/Desktop$ 
 user@epk428-10:~/Desktop$ 
+
+user@epk428-10:/etc$ ls | head
+acpi
+adduser.conf
+alternatives
+anacrontab
+apache2
+apg.conf
+apm
+apparmor
+apparmor.d
+apport
+user@epk428-10:/etc$ 
+
+
