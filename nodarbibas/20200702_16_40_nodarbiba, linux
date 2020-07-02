@@ -23,3 +23,17 @@ apport
 user@epk428-10:/etc$ 
 
 
+user@epk428-10:/etc$ ls | tail 
+vim
+vtrgb
+w3m
+wgetrc
+whoopsie
+wpa_supplicant
+X11
+xdg
+xml
+zsh_command_not_found
+user@epk428-10:/etc$ 
+
+
