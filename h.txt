@@ -1,0 +1,152 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefix &
+    4  chrome &
+    5  firefox &
+    6  pwd
+    7  clear
+    8  exit
+    9  quartus
+   10  clear
+   11  VirtualBox --startvm XP
+   12  history
+   13  ls
+   14  ls .
+   15  ls /
+   16  home/user
+   17  ls home/user
+   18  ls /home/user
+   19  LS /home/user
+   20  ls /home/user 
+   21  CLEAR
+   22  clear
+   23  ls /home/sc
+   24  Ls /Home/Sc
+   25  clear 
+   26  ls /home/sc
+   27  cd
+   28  cd /desktop
+   29  cd /home/desktop
+   30  cd desktop
+   31  cd /home/user/desktop
+   32  dektop
+   33  ls
+   34  cd  Desktop
+   35  ls
+   36  &
+   37  clear
+   38  cd desktop
+   39  cd Dektop
+   40  cd /desktop
+   41  cd /Desktop
+   42  clearf
+   43  clear
+   44  history
+   45  clear
+   46  ls
+   47  mkdir
+   48  mkdir --help
+   49  mkdir abc
+   50  mkdir ABC 
+   51  ls
+   52  mkdir Abc 
+   53  mkdir ABc 
+   54  mkdir AbC 
+   55  ls
+   56  clear
+   57  firefox &
+   58  date
+   59  ls
+   60  ls -l
+   61  cd
+   62  pdw
+   63  pwd
+   64  cd /
+   65  cd /etc
+   66  pwd
+   67  ls
+   68  clear
+   69  history
+   70  clear
+   71  ls 
+   72  clear
+   73  ls/head
+   74  ls | head
+   75  ls | tail 
+   76  head -n
+   77  head-n
+   78  head -n
+   79  head -n3
+   80  ls | head -n3
+   81  ls | head-3
+   82  ls | head -n
+   83  ls | head -3
+   84  ls | head -c
+   85  ls | head -c5k
+   86  ls | head -n3
+   87  ls | head -n3 | wc -c
+   88  ls | head -n3 | wc -l
+   89  cd
+   90  clear
+   91  ls
+   92  ls Desktop
+   93  ls | wc -c
+   94  ls Desktop/| wc -c
+   95  wc --help
+   96  ls Desktop/| wc -c
+   97  ls Desktop/| wc -m
+   98  java
+   99  java -version
+  100  java --version
+  101  python
+  102  a=123
+  103  echo a
+  104  echo $a
+  105  b=sveiki 
+  106  echo $b
+  107  echo $a+b
+  108  echo $a $b
+  109  echo $a, $b
+  110  a=date
+  111  echo $a
+  112  d=date| echo $d
+  113  d=date|echo #d
+  114  date
+  115  echo 'date'
+  116  echo `date`
+  117  a=123
+  118  z=44
+  119  echo $a+$z
+  120  sum a+z
+  121  sum=$num a + $num z
+  122  i=$numa
+  123  num1=a
+  124  num2=z
+  125  sum+$num1+num2
+  126  exho $num1
+  127  echo $num1
+  128  num1=123
+  129  num2=44
+  130  sum=$num1+num2
+  131  echo $sum
+  132  sum=$num1+$num2
+  133  echo $sum
+  134  sum=$a+$b
+  135  echo $sum
+  136  sum=$(($a+$z))
+  137  echo $sum
+  138  pwd
+  139  ls
+  140  clear
+  141  history
+  142  clear
+  143  echo $sum
+  144  echo $sum EUR
+  145  echo $sum EUR > a.txt
+  146  ls
+  147  ls -l a.txt
+  148  cat a.txt
+  149  date
+  150  history tail
+  151  history
+  152  history > h.txt
