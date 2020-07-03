@@ -1,0 +1,145 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  NANO
+    4  nano
+    5  jauns text 
+    6  nano abc.txt
+    7  mkdir ABC 
+    8  ls -lt
+    9  pwd
+   10  cd abc/
+   11  cd abc
+   12  cd ABC
+   13  pwd
+   14  cd .
+   15  pwd
+   16  cd ..
+   17  pwd
+   18  cd ../
+   19  ls -lt
+   20  ls -lta
+   21  ctrl alt t 
+   22  echo 
+   23  DMK
+   24  DK
+   25  LS 
+   26  LS-T
+   27  pwd
+   28  echo $0
+   29  ctrl + alt + t 
+   30  pwd
+   31  cd ..
+   32  pwd
+   33  ls -
+   34  nano abc.txt
+   35  xxd -b abc.txt
+   36  31 32 33 34 35 > aaa.txt
+   37  ls
+   38  pwd
+   39  ls
+   40  whereis ls
+   41  ls -l
+   42  /bin/ls
+   43  ls
+   44  echo $path
+   45  cd
+   46  pwd
+   47  nano first_script.sh
+   48  ls -lt
+   49  first_script.sh
+   50  ./first_script.sh
+   51  #PATH=$PATH:~
+   52  $PATH=$PATH:~
+   53  PATH=$PATH:./
+   54  PATH=$PATH:~
+   55  echo $PATH
+   56  first_script.sh
+   57  ls -l first_script.sh
+   58  chmod 744 first_script.sh
+   59  first_script.sh
+   60  ls -lt
+   61  whereis first_script.sh
+   62  first_script.sh
+   63  cd
+   64  git clone https://github.com/sintijaerte/EDIBO
+   65  ls
+   66  cd EDIBO/
+   67  ls -lt
+   68  cat README.md
+   69  pwd
+   70  nano git-upload
+   71  ls -lt
+   72  chmod 740 git-upload
+   73  ls -lt
+   74  ./git-ipload
+   75  ./git-upload
+   76  history > teksts.txt
+   77  history
+   78  pwd
+   79  echo $
+   80  echo $user
+   81  echo $USER
+   82  echo $HOME
+   83  cd /
+   84  pwd
+   85  cd $HOME
+   86  pwd
+   87  date 
+   88  echo $PS1
+   89  $PS1=$
+   90  $PS1=W
+   91  w
+   92  $
+   93  PS1=$
+   94  >>>
+   95  pwd
+   96  Desktop
+   97  ls
+   98  Desktop
+   99  pico
+  100  whereis pico
+  101  ls -l
+  102  ls-l /usr/bin/ | wc -l
+  103  ls-l usr/bin/pico
+  104  ls -l /usr/bin/ | wc -l
+  105  ls -l /usr/bin/pico
+  106  ls -l /etc/alternatives/pico
+  107  ls -l /bin/nano
+  108  pwd
+  109  vim
+  110  vim 01.sh
+  111  ls -l
+  112  ls -l 01.sh
+  113  wc 01.sh
+  114  chmod 740
+  115  chmod +x
+  116  chmod +x 01.sh
+  117  ls -l 01.sh
+  118  vim /
+  119  mc
+  120  000 --- 111 - rwx
+  121  rwx
+  122  111
+  123  000
+  124  01
+  125  01.sh
+  126  01.sh:
+  127  pwd
+  128  01.sh
+  129  ls 01.sh
+  130  ls -l 01.sh
+  131  vim
+  132  vim 01.sh
+  133  01.sh
+  134  vim 01.sh
+  135  01.sh
+  136  vim 01.sh
+  137  01.sh
+  138  ./01.sh
+  139  vim 01.sh
+  140  ./01.sh
+  141  vim 01.sh
+  142  ./01.sh
+  143  real
+  144  vim 01.sh
+  145  history > p2.txt

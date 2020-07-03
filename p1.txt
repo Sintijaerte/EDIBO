@@ -1,0 +1,88 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  NANO
+    4  nano
+    5  jauns text 
+    6  nano abc.txt
+    7  mkdir ABC 
+    8  ls -lt
+    9  pwd
+   10  cd abc/
+   11  cd abc
+   12  cd ABC
+   13  pwd
+   14  cd .
+   15  pwd
+   16  cd ..
+   17  pwd
+   18  cd ../
+   19  ls -lt
+   20  ls -lta
+   21  ctrl alt t 
+   22  echo 
+   23  DMK
+   24  DK
+   25  LS 
+   26  LS-T
+   27  pwd
+   28  echo $0
+   29  ctrl + alt + t 
+   30  pwd
+   31  cd ..
+   32  pwd
+   33  ls -
+   34  nano abc.txt
+   35  xxd -b abc.txt
+   36  31 32 33 34 35 > aaa.txt
+   37  ls
+   38  pwd
+   39  ls
+   40  whereis ls
+   41  ls -l
+   42  /bin/ls
+   43  ls
+   44  echo $path
+   45  cd
+   46  pwd
+   47  nano first_script.sh
+   48  ls -lt
+   49  first_script.sh
+   50  ./first_script.sh
+   51  #PATH=$PATH:~
+   52  $PATH=$PATH:~
+   53  PATH=$PATH:./
+   54  PATH=$PATH:~
+   55  echo $PATH
+   56  first_script.sh
+   57  ls -l first_script.sh
+   58  chmod 744 first_script.sh
+   59  first_script.sh
+   60  ls -lt
+   61  whereis first_script.sh
+   62  first_script.sh
+   63  cd
+   64  git clone https://github.com/sintijaerte/EDIBO
+   65  ls
+   66  cd EDIBO/
+   67  ls -lt
+   68  cat README.md
+   69  pwd
+   70  nano git-upload
+   71  ls -lt
+   72  chmod 740 git-upload
+   73  ls -lt
+   74  ./git-ipload
+   75  ./git-upload
+   76  history > teksts.txt
+   77  for i in {0..1000} ; do  echo " $i " ; done
+   78  for i in {0..5}; do echo "$i**"; done
+   79  for i in {0..5}; do echo "$i**2"; done
+   80  for i in {0..5}; do echo "$i^2"; done
+   81  for i in {0..5}; do echo "$i*i"; done
+   82  for i in {0..5}; do echo "$i*$i"; done
+   83  for i in {0..5}; do echo "(($i*$i))"; done
+   84  for i in {0..5}; do echo "$(($i*$i))"; done
+   85  for i in {0..5}; do echo "$((i*i))"; done
+   86  for i in {0..5}; do echo "$i    $((i*i))"; done
+   87  for i in {0..5}; do echo "$i    $((i*i))      $((i*i*i))"; done
+   88  history > p1.txt
