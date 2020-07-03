@@ -1,0 +1,22 @@
+user@epk428-10:~$ for i in {0..5}; do echo "$((i*i))"; done
+0
+1
+4
+9
+16
+25
+user@epk428-10:~$ for i in {0..5}; do echo "$i    $((i*i))"; done
+0    0
+1    1
+2    4
+3    9
+4    16
+5    25
+user@epk428-10:~$ for i in {0..5}; do echo "$i    $((i*i))      $((i*i*i))"; done
+0    0      0
+1    1      1
+2    4      8
+3    9      27
+4    16      64
+5    25      125
+user@epk428-10:~$ 
