@@ -58,3 +58,52 @@ $ echo $c
 $ 
 $ 
 
+
+
+
+$ bc <<<" scale=2; $a/$b"
+.64
+$ bc <<<" scale=4; $a/$b"
+.6423
+$ bc <<<" scale=4; (($a/$b)*100)"
+64.2300
+$ bc <<<" scale=4; (($a/$b)*100)"%
+(standard_in) 2: syntax error
+$ bc <<<" scale=4; (($a/$b)*100)"'%'
+(standard_in) 2: syntax error
+$ bc <<<" scale=4; (($a/$b)*100)" 
+64.2300
+$ c= `bc <<<" scale=4; (($a/$b)*100)" `
+64.2300: command not found
+$ echo $c
+
+$ 
+$ c=`bc <<<" scale=4; (($a/$b)*100)" `
+$ echo $c
+64.2300
+$ echo $c %
+64.2300 %
+$ man bc 
+$ $ bc <<<" scale=4; (($a/$b)*100)"
+$: command not found
+$ $ bc <<<" scale=2; (($a/$b)*100)"
+$: command not found
+$ a=`df | grep sda2 | awk '{print $3}'` 
+$ echo $a
+66389960
+$ b=`df | grep sda2 | awk '{print $2}'`
+$ echo $b
+103292152
+$ c=`bc <<<" scale=2; (($a/$b)*100)" ` 
+$ echo $c %
+64.00 %
+$ echo $(($a*100/$b))
+64
+$ echo $a
+66389960
+$ echo $b
+103292152
+$ echo $(($a*100/$b))%
+64%
+$ 
+$ 
