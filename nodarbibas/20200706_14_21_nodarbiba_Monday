@@ -1,2 +1,11 @@
 Pirmdiena. 6.julija nodarbiba 
 
+$ df -h | grep sda2
+/dev/sda2        99G   64G   31G  68% /
+$ df -h | grep sda2 | sed {print $3}
+sed: -e expression #1, char 3: extra characters after command
+$ df | head -n 1
+Filesystem     1K-blocks     Used Available Use% Mounted on
+$ df | egrep sda2
+/dev/sda2      103292152 66353480  31648688  68% /
+$ 
