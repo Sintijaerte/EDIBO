@@ -9,3 +9,52 @@ Filesystem     1K-blocks     Used Available Use% Mounted on
 $ df | egrep sda2
 /dev/sda2      103292152 66353480  31648688  68% /
 $ 
+
+
+
+
+$ a=`df | grep sda2 | awk '{print $3}'`
+$ echo $a
+66353980
+$ b=`df | grep sda2 | awk '{print $2}'`
+$ echo $b
+103292152
+$ echo $((a/b))
+0
+$ echo $((b/a))
+1
+$ echo $((b/a*100))
+100
+$ echo $((b/a)*100)
+bash: command substitution: line 1: syntax error near unexpected token `*100'
+bash: command substitution: line 1: `(b/a)*100'
+
+$ echo $((b/a))*100
+1*100
+$ echo $((a/b*100))
+0
+$ echo $(( a/b *100 ))
+0
+$ echo $(( a/b ))
+0
+$ echo $(( a / b ))
+0
+$ bc <<<" scale=2; $a/$b"
+.64
+$ bc <<<" scale=4; $a/$b"
+.6423
+$ bc <<<" scale=4; (($a/$b)*100)"
+64.2300
+$ bc <<<" scale=4; (($a/$b)*100)"%
+(standard_in) 2: syntax error
+$ bc <<<" scale=4; (($a/$b)*100)"'%'
+(standard_in) 2: syntax error
+$ bc <<<" scale=4; (($a/$b)*100)" 
+64.2300
+$ c= `bc <<<" scale=4; (($a/$b)*100)" `
+64.2300: command not found
+$ echo $c
+
+$ 
+$ 
+
