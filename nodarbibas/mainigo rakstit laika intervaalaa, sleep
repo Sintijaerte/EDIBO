@@ -1,0 +1,25 @@
+$ df | grep sda2
+/dev/sda2      103292152 66403480  31598688  68% /
+$ df | grep sda2 | awk '{print $3}'
+66403524
+$ a=`df |grep sda2 | awk {print $3}`
+awk: cmd. line:1: {print
+awk: cmd. line:1:       ^ unexpected newline or end of string
+$ a=`df |grep sda2 | awk '{print $3}'`
+$ echo $a
+66403572
+$ b=`df |grep sda2 | awk '{print $2}'`
+$ echo $b
+103292152
+$ c=`bc <<<" scale=2;(($a*100/$b))`
+bash: command substitution: line 1: unexpected EOF while looking for matching `"'
+bash: command substitution: line 2: syntax error: unexpected end of file
+$ c=`bc <<<" scale=2;(($a*100/$b))"`
+$ echo $c %
+64.28 %
+$ for i in {0..3}; do echo $c; done
+64.28
+64.28
+64.28
+64.28
+$ while true; do c; sleep 1; done
