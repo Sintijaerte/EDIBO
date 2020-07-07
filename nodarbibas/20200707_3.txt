@@ -1,0 +1,59 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  PS1=$
+    4  plot [t=-4:4] f(t) title " Bell Curve", t**2 / 16 title "Parabola" 
+    5  gnuplot
+    6  echo 1 >> x.dat
+    7  echo 3 >> x.dat
+    8  echo 5 >> x.dat
+    9  echo 10 >> x.dat
+   10  cat x.dat
+   11  gnuplot
+   12  vim y.sh
+   13  cat y.dat
+   14  chmod 774
+   15  chmod 774 y.dat
+   16  vim y.sh
+   17  ./y.sh
+   18  chmod 774 y.sh
+   19  ./y.sh
+   20  cat y.dat
+   21  ls 
+   22  gnuplot
+   23  vim y.sh
+   24  ./y.sh
+   25  cat y.dat
+   26  vim y.sh
+   27  ./y.sh
+   28  cat y.dat
+   29  vim y.sh
+   30  ./sh
+   31  cat y.dat
+   32  vim y.sh
+   33  ./y.sh
+   34  cat y.dayt
+   35  cat y.dat
+   36  gnuplot
+   37  vim y.sh
+   38  ./y.sh
+   39  vim y.sh
+   40  ./y.sh
+   41  vim y.sh
+   42  ./y.sh
+   43  vim y.sh
+   44  ./y.sh
+   45  cat y.dat
+   46  vim y.sh
+   47  ./y.sh
+   48  vim y.sh
+   49  ./y.sh
+   50  cat y.dat
+   51  pwd
+   52  ls
+   53  cd Desktop
+   54  pwd
+   55  cd MyFolder
+   56  pwd
+   57  python
+   58  python 
+   59  history > 20200707_3.txt

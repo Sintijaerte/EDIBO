@@ -1,0 +1,10 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  PS1=$
+    4  ip a
+    5  ping 
+    6  ping 192.168.123.1
+    7  pwd
+    8  ls
+    9  history > t.txt
+   10  history > 20200707_01.txt
