@@ -1,0 +1,358 @@
+ 1/1: a = [1, 2, 3, 4, 5]
+ 1/2: type(a)
+ 1/3: b.hex()
+ 1/4: b.hex
+   1: b.hex()
+   2: b'A'.hex()
+   3: ord ('A')
+   4: hex(ord('A'))
+   5: ord ('S')
+   6: hex ('B')
+   7: bin(ord('A'))
+   8: hex(123)
+   9: bin(123)
+  10: s = set()
+  11: type(s)
+  12: s.add(11)
+  13: s
+  14: s.add(22)
+  15: s.add('ad')
+  16: s
+  17: for i in range(9): print i
+  18: for i in range(9): print (i)
+  19: for i in range(9): print (i,i)
+  20: for i in range(9): print (i*i)
+  21: for i in range(9): print (i/i)
+  22: for i in range(9): print (i / i)
+  23: for i in range(9): print (i / i+1)
+  24: for i in range(9): print (i+1)
+  25: range.__doc__
+  26: for i in range(4,9): print (i,i+1 )
+  27: for i in range(4,9): print (i,i*1)
+  28: for i in range(-4,9): print (i,i*1)
+  29: for i in range(-4,5): print (i,i*-1)
+  30: for i in range(-4,5): print (i,i*1); print ('a')
+  31: S.
+  32: for i in range(-4,5): print (i,i*1):
+  33: for i in range(-4,5): print (i,i*1)
+  34:
+for i in range(5):
+    print(i, end='')
+  35:
+for i in range(5):
+    print(i,"  " end='')
+  36:
+for i in range(5):
+    print(i,"  " ,end='')
+  37:
+for i in range(5):
+    print("/t", i,"  " ,end='')
+  38:
+for i in range(5):
+    print( "/t" , i," " ,end='')
+  39: for i in range(5)
+  40:
+for i in range(4):
+    for j in range(2)"
+  41:
+for i in range(4):
+    for j in range(2):
+        print (i, j)
+  42:
+pascals_triangle = []
+
+def blank_list_gen(x):
+    while len(pascals_triangle) < x:
+        pascals_triangle.append([0])
+
+def pascals_tri_gen(rows):
+    blank_list_gen(rows)
+    for element in range(rows):
+        count = 1
+        while count < rows - element:
+            pascals_triangle[count + element].append(0)
+            count += 1
+    for row in pascals_triangle:
+        row.insert(0, 1)
+        row.append(1)
+    pascals_triangle.insert(0, [1, 1])
+    pascals_triangle.insert(0, [1])
+
+pascals_tri_gen(6)
+
+for row in pascals_triangle:
+    print(row)
+  43:
+for row in range(40):
+    for k in range(row + 1):
+        # flush is a Python 3 only argument, you can leave it out,
+        # but it lets us see each element print as it finishes calculating
+        print(choose(row, k), end=' ', flush=True) 
+    print()
+  44:
+for row in range(40):
+    for k in range(row + 1):
+        # flush is a Python 3 only argument, you can leave it out,
+        # but it lets us see each element print as it finishes calculating
+        print(choose(row, k), end=' ', flush=True) 
+    print()
+    # Python program to print pascal’s triangle
+
+n=int(input(“Enter number of rows: “))
+a=[]
+for i in range(n):
+a.append([])
+a[i].append(1)
+for j in range(1,i):
+a[i].append(a[i-1][j-1]+a[i-1][j])
+if(n!=0):
+a[i].append(1)
+for i in range(n):
+print(” “*(n-i),end=” “,sep=” “)
+for j in range(0,i+1):
+print(‘{0:6}’.format(a[i][j]),end=” “,sep=” “)
+print()
+  45:
+# Python program to print pascal's triangle
+n = int(input("Enter the number: "))
+a = [] #an empty list
+for i in range(n):
+  a.append([])
+  a[i].append(1)
+  for j in range(1, i):
+    a[i].append(a[i - 1][j - 1] + a[i - 1][j])
+  if(n != 0):
+    a[i].append(1)
+for i in range(n):
+  print(" " * (n - i), end = " ", sep = " ")
+  for j in range(0, i + 1):
+    print('{0:6}'.format(a[i][j]), end = " ", sep = " ")
+  print()
+  46:
+# Python program to print pascal's triangle
+n = int(input("Enter the number: "))
+a = [] #an empty list
+for i in range(n):
+  a.append([])
+  a[i].append(1)
+  for j in range(1, i):
+    a[i].append(a[i - 1][j - 1] + a[i - 1][j])
+  if(n != 0):
+    a[i].append(1)
+for i in range(n):
+  print(" " * (n - i), end = " ", sep = " ")
+  for j in range(0, i + 1):
+    print('{0:6}'.format(a[i][j]), end = " ", sep = " ")
+  print()
+  47:
+n=int(input("Enter number of rows: "))
+a=[]
+for i in range(n):
+    a.append([])
+    a[i].append(1)
+    for j in range(1,i):
+        a[i].append(a[i-1][j-1]+a[i-1][j])
+    if(n!=0):
+        a[i].append(1)
+for i in range(n):
+    print("   "*(n-i),end=" ",sep=" ")
+    for j in range(0,i+1):
+        print('{0:6}'.format(a[i][j]),end=" ",sep=" ")
+    print()
+  48:
+n=int(input("Enter number of rows: "))
+a=[]
+for i in range(n):
+    a.append([])
+    a[i].append(1)
+    for j in range(1,i):
+        a[i].append(a[i-1][j-1]+a[i-1][j])
+    if(n!=0):
+        a[i].append(1)
+for i in range(n):
+    print("   "*(n-i),end=" ",sep=" ")
+    for j in range(0,i+1):
+        print('{0:6}'.format(a[i][j]),end=" ",sep=" ")
+    print()
+  49:
+n=int(input("Enter number of rows: "))
+a=[]
+for i in range(n):
+    a.append([])
+    a[i].append(1)
+    for j in range(1,i):
+        a[i].append(a[i-1][j-1]+a[i-1][j])
+    if(n!=0):
+        a[i].append(1)
+for i in range(n):
+    print("      "*(n-i),end=" ",sep=" ")
+    for j in range(0,i+1):
+        print('{0:6}'.format(a[i][j]),end=" ",sep=" ")
+    print()
+  50:
+for row in range(40):
+    for k in range(row + 1):
+        # flush is a Python 3 only argument, you can leave it out,
+        # but it lets us see each element print as it finishes calculating
+        print(choose(row, k), end=' ', flush=True) 
+    print()
+    # Python program to print pascal’s triangle
+
+n=int(input(“Enter number of rows: “))
+a=[]
+for i in range(n):
+a.append([])
+a[i].append(1)
+for j in range(1,i):
+a[i].append(a[i-1][j-1]+a[i-1][j])
+if(n!=0):
+a[i].append(1)
+for i in range(n):
+print(” “*(n-i),end=” “,sep=” “)
+for j in range(0,i+1):
+print(‘{0:6}’.format(a[i][j]),end=” “,sep=” “)
+print()
+  51:
+n=int(input("Enter number of rows: "))
+a=[]
+for i in range(n):
+    a.append([])
+    a[i].append(1)
+    for j in range(1,i):
+        a[i].append(a[i-1][j-1]+a[i-1][j])
+    if(n!=0):
+        a[i].append(1)
+for i in range(n):
+    print("   "*(n-i),end=" ",sep=" ")
+    for j in range(0,i+1):
+        print('{0:6}'.format(a[i][j]),end=" ",sep=" ")
+    print()
+  52:
+n=int(input("Enter number of rows: "))
+a=[]
+for i in range(n):
+    a.append([])
+    a[i].append(1)
+    for j in range(1,i):
+        a[i].append(a[i-1][j-1]+a[i-1][j])
+    if(n!=0):
+        a[i].append(1)
+for i in range(n):
+    print("   "*(n-i),end=" ",sep=" ")
+    for j in range(0,i+1):
+        print('{0:6}'.format(a[i][j]),end=" ",sep=" ")
+    print()
+  53:
+n=int(input("Enter number of rows: "))
+a=[]
+for i in range(n):
+    a.append([])
+    a[i].append(1)
+    for j in range(1,i):
+        a[i].append(a[i-1][j-1]+a[i-1])
+    if(n!=0):
+        a[i].append(1)
+for i in range(n):
+    print("   "*(n-i),end=" ",sep=" ")
+    for j in range(0,i+1):
+        print('{0:6}'.format(a[i][j]),end=" ",sep=" ")
+    print()
+  54:
+n=int(input("Enter number of rows: "))
+a=[]
+for i in range(n):
+    a.append([])
+    a[i].append(1)
+    for j in range(1,i):
+        a[i].append(a[i-1][j-1]+a[i-1][j])
+    if(n!=0):
+        a[i].append(1)
+for i in range(n):
+    print("   "*(n-i),end=" ",sep=" ")
+    for j in range(0,i+1):
+        print('{0:6}'.format(a[i][j]),end=" ",sep=" ")
+    print()
+  55: s = " " "
+  56:
+s= """
+godatais jā, 
+es gribu 
+ok 
+viss
+"""
+  57: s
+  58: print [s]
+  59: print [s]
+  60: print(s)
+  61: print(s)
+  62: def f(x)
+  63: x= str(x)
+  64:
+def f(x):
+    x =str(x):
+  65:
+def f(x):
+    x =str(x):
+  66:
+def f(x):
+    x = str(x):
+  67:
+s="""
+tagad ir x 
+bet velak bus y 
+viss 
+"""
+  68: print(s)
+  69: x = pieci
+  70: x = 'pieci '
+  71: print(s)
+  72: x=str(x)
+  73: x='pieci'
+  74: print(s)
+  75: x = " pieci"
+  76: print(s)
+  77:
+s="""
+tagad ir %x 
+bet velak bus y 
+viss 
+"""
+  78: print(s)
+  79:
+s="""
+tagad ir 'x' 
+bet velak bus y 
+viss 
+"""
+  80: print(s)
+  81:
+s="""
+tagad ir (x) 
+bet velak bus y 
+viss 
+"""
+  82: print(s)
+  83: x='vards'=()
+  84:
+s="""
+tagad ir %s 
+bet velak bus %s 
+viss 
+"""%(pieci, seshi)
+  85:
+s="""
+tagad ir %s 
+bet velak bus %s 
+viss 
+"""%(x,y)
+  86:
+x=" pieci" 
+y=" seshi"  
+s="""
+tagad ir %s 
+bet velak bus %s 
+viss 
+"""%(x,y)
+print(s)
+  87: history>i.txt
+  88: %history -g -f i.txt
