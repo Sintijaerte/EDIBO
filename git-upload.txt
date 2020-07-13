@@ -1,0 +1,8 @@
+#!/bin/bash
+git config --global user.email sintija.erte@gmail.com
+git add .
+git commit -m "abc"
+git pull 
+git push origin master
+print > gitupload.txt
+
