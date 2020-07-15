@@ -1,9 +1,7 @@
 #!/bin/bash
-if [$# == 1] 
-then
+
 git config --global user.email sintija.erte@gmail.com
 git add .
-git commit -m "$1"
+git commit -m `date +%Y%m%d_%H_%M`
 git pull 
 git push origin master
-fi

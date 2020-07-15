@@ -1,0 +1,19 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git status
+    4  git clone
+    5  git cloenm 
+    6  git clone
+    7  git clone https://github.com/Sintijaerte/EDIBO
+    8  pwd
+    9  cd ..
+   10  ls
+   11  cd ..
+   12  pwd
+   13  ls
+   14  git clone https://github.com/Sintijaerte/EDIBO
+   15  ls
+   16  history > z.txt
+   17  cd EDIBO
+   18  ls
+   19  history > z_history.txt
