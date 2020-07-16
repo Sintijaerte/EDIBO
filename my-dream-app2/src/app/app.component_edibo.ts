@@ -13,12 +13,14 @@ export class AppComponent {
   // imageCount = 0;
   isVisible = true;
   imageSources = [];
+  //textSource = "";
 
   increaseImageCount(){
     const id = this.generateId();
     this.imageSources.push(
       `https://picsum.photos/id/${id}/200/150`
     )
+    //this.textSource. ("Hello")
     // this.imageCount++;
   }
 
@@ -28,7 +30,7 @@ export class AppComponent {
     this.isVisible = !this.isVisible;
   }
   
-  public generateId(){
+  private generateId(){
     return Math.round(Math.random() * MAXRANGE) + 1;
   }
 
