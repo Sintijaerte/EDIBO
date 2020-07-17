@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel = "stylesheet" href = "app.component.css">
+</head>
+<body>
+  <!-- <h1 style ="color:blueviolet;"> Fake Instagram </h1> -->
+
+
+  <!-- a {
+    color: red;
+    text-decoration: none;
+    border: 1px solid grey;
+    display: inline-block;
+  }
+a:hover {
+    color: green;
+  }
+  /* or */
+  
+h1 {
+    background: #c0ffee;
+  }
+a h1:hover {
+    color: pink;
+  }  -->
+ <h1 style="background-color:rgb(99, 89, 119); color:rgb(217, 217, 255); text-align:center; font-family:verdana; font-size:160%;">Fake Instagram</h1>
+
+<p style = "background-color:rgb(99, 89, 119); color:rgb(217, 217, 255); text-align:center;"> check out some  <strong>random </strong> images </p> 
+<br> 
+<em>Skaties!</em> 
+
+  <!--  <h1 tabindex="" (focus)="increaseImageCount()" contenteditable="">Fake Instagram </h1>-->
+<p></p><p></p>>
+te bus bildes:
+<button (click)="increaseImageCount()">give me more!!!</button>
+<button (click)="toggle()">Rādīt vai nerādīt</button> 
+
+<!--<button hover"count = count + 1" init="count=0">
+            Increment (when mouse is over)
+        </button>
+        count: {{count}}--> 
+        
+
+<!-- <div ng-controller="myCtrl">
+    <button ng-click="myFunc()">OK</button>
+    <p>The button has been clicked {{count}} times.</p>
+</div>
+
+<script>
+angular.module('myApp', [])
+.controller('myCtrl', ['$scope', function($scope) {
+    $scope.count = 0;
+    $scope.myFunc = function() {
+        $scope.count++;
+    };
+}]);
+</script> -->
+
+<app-spinner></app-spinner>
+
+<div *ngIf="isVisible">
+  <div class="make-it-inline" *ngFor="let image of imageSources">
+    <img [src]="image" alt="Bilde">
+  </div>
+</div>
+
+
+  <!-- <img src="{{imageSources[0]}}" alt="Bilde"> -->
+<!-- <div class="container">
+    <img src="image" alt="Bilde" style="width:100%;">
+    <div class="text-block">
+      <h4>Nature</h4>
+      <p>What a beautiful sunrise</p>
+    </div>
+  </div>  -->
+  
+
+<!-- {{imageSources | json}} -->
+</body>
+</html>
