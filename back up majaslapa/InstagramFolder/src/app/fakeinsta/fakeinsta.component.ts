@@ -1,17 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 const MAXRANGE = 300;
 
 @Component({
-  selector: 'app-root',
-  // view
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-fakeinsta',
+  templateUrl: './fakeinsta.component.html',
+  styleUrls: ['./fakeinsta.component.css']
 })
-// Controller
-export class AppComponent {
+export class FakeinstaComponent  {
 
-  title = 'labiņais';
-  // imageCount = 0;
+ 
   isVisible = true;
   imageSources = [];
   //textSource = "";
@@ -36,3 +33,4 @@ export class AppComponent {
   }
 
 }
+

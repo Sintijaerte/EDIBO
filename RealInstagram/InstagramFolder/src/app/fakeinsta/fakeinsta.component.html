@@ -1,0 +1,12 @@
+<p></p>
+
+te bus bildes:
+<h1></h1>
+<button (click)="increaseImageCount()">give me more!!!</button>
+<button (click)="toggle()">Rādīt vai nerādīt</button> 
+
+<div *ngIf="isVisible">
+  <div class="make-it-inline" *ngFor="let image of imageSources">
+    <img [src]="image" alt="Bilde">
+  </div>
+</div> 
