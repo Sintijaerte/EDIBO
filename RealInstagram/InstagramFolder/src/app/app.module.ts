@@ -12,6 +12,10 @@ import { IevadeComponent } from './ievade/ievade.component';
 import { NavComponent } from './nav/nav.component';
 import { FakeinstaComponent } from './fakeinsta/fakeinsta.component';
 import { FakeinstaModule } from './fakeinsta/fakeinsta.module';
+import { IluzijaComponent } from './iluzija/iluzija.component';
+import { PogaComponent } from './poga/poga.component';
+
+import {MatButtonModule} from '@angular/material/button';
 
 
  
@@ -24,7 +28,8 @@ import { FakeinstaModule } from './fakeinsta/fakeinsta.module';
     DelfiComponent,
     IevadeComponent,
     NavComponent,
-    // FakeinstaComponent,
+    IluzijaComponent,
+    PogaComponent,
     
 
   ],
@@ -33,7 +38,8 @@ import { FakeinstaModule } from './fakeinsta/fakeinsta.module';
     AppRoutingModule, 
     BrowserAnimationsModule, 
     MatProgressSpinnerModule, 
-    FakeinstaModule
+    FakeinstaModule, 
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
