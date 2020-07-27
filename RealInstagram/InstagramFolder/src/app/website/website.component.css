@@ -1,0 +1,13 @@
+p {
+    color: purple;
+    font-size: 90%;
+    text-align: left;
+}
+
+p:hover {
+    color: blue;
+    font-family: verdana;
+    font-size: 150%; 
+    text-align: left;
+}
+

@@ -16,6 +16,8 @@ import { IluzijaComponent } from './iluzija/iluzija.component';
 import { PogaComponent } from './poga/poga.component';
 
 import {MatButtonModule} from '@angular/material/button';
+import { InformacijaComponent } from './informacija/informacija.component';
+import { WebsiteComponent } from './website/website.component';
 
 
  
@@ -30,6 +32,8 @@ import {MatButtonModule} from '@angular/material/button';
     NavComponent,
     IluzijaComponent,
     PogaComponent,
+    InformacijaComponent,
+    WebsiteComponent,
     
 
   ],

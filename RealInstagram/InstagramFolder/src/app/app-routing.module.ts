@@ -9,7 +9,9 @@ import { NavComponent } from './nav/nav.component';
 import { FakeinstaComponent} from './fakeinsta/fakeinsta.component'
 
 import { IluzijaComponent } from './iluzija/iluzija.component'
-import { PogaComponent } from './poga/poga.component';
+import { PogaComponent } from './poga/poga.component'
+import { InformacijaComponent} from './informacija/informacija.component';
+import { WebsiteComponent } from './website/website.component';
 
 const routes: Routes = [
   { path: 'Spineris1', component: Spineris1Component }, 
@@ -18,7 +20,9 @@ const routes: Routes = [
   { path: 'nav', component: NavComponent}, 
   { path: 'fakeinsta', component: FakeinstaComponent},
   { path: 'iluzija', component: IluzijaComponent}, 
-  { path: 'poga', component: PogaComponent} 
+  { path: 'poga', component: PogaComponent},
+  { path: 'informacija', component: InformacijaComponent},
+  { path: 'website', component: WebsiteComponent}
  
 ];
 
